@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.site-header {
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: $spacing-unit * 3;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+  background-image: url('/assets/clouds.jpg');
+  repeat: none
+}
+
+.site-title, .site-title:visited {
+  color: white;
+  font-weight: bold;
+}
